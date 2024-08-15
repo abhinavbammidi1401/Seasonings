@@ -17,8 +17,8 @@ The recipe recommendation system allows users to input a list of ingredients, an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/recipe-recommendation-system.git
-   cd recipe-recommendation-system
+   git clone https://github.com/your-username/Seasonings.git
+   cd Seasonings
    ```
 
 2. Install the required Python packages:
@@ -26,26 +26,9 @@ The recipe recommendation system allows users to input a list of ingredients, an
    pip install -r requirements.txt
    ```
 
-3. Run the FastAPI server:
+3. Run the app:
    ```bash
-   uvicorn app:app --reload
-   ```
-
-## Usage
-
-1. Send a POST request to `http://localhost:8000/recommend_recipes` with the following JSON payload:
-   ```json
-   {
-     "ingredients": "chicken, cheese, tomato"
-   }
-   ```
-
-2. View the recipe recommendations in the response.
-
-## API Endpoints
-
-- **POST /recommend_recipes:**  
-  Endpoint for recipe recommendation based on user-provided ingredients.
+   streamlit run Streamlit.py
 
 ## Dependencies
 
@@ -58,7 +41,6 @@ The recipe recommendation system allows users to input a list of ingredients, an
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 Replace the placeholders (`your-username`, `http://localhost:8000`, `link-to-dataset`, `link-to-notebook`, etc.) with the appropriate URLs, paths, and information relevant to your project.
 
