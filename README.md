@@ -55,10 +55,6 @@ The recipe recommendation system allows users to input a list of ingredients, an
 - `PIL`
 - `fastapi`
 
-## Resources
-
-- Dataset: (https://www.kaggle.com/datasets/zeeenb/recipes-from-tasty)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
