@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 
 
-df = pd.read_csv('cleaned_food.csv')
+df = pd.read_csv('D://Abhinav//Test//Seasonings//data//cleaned_food.csv')
 
 df['cleaned_ingredients'] = df['cleaned_ingredients'].apply(
     lambda x: x.replace('[', '').replace(']', '').replace("'", '').split(', '))
