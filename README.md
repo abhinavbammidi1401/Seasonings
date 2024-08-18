@@ -38,6 +38,10 @@ The recipe recommendation system allows users to input a list of ingredients, an
 - `PIL`
 - `fastapi`
 
+## Medium Article
+If you want to read about the entire project, please go to the following link:
+https://medium.com/@abhinavbammidi/from-text-to-tasty-how-nlp-transforms-ingredients-into-recipes-cbdbdef57d2d
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
